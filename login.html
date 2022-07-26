@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>FileUploader</title>
+        <title>Login \ SignUp</title>
         <style>
             body{
                 background-color: chocolate;
@@ -91,6 +91,10 @@
     color:#000;
     transition:0.2s;
 }
+img{
+    height: 90px;
+    width: 100px;
+}
 </style>
     </head>
     <body>
@@ -98,13 +102,32 @@
             <div class="contact-parent">
                <div class="contact-child child2">
                   <div class="inside-contact">
-                    
-                        <form action="serverside.php" method="POST"
-                        enctype="multipart/form-data">
-                        <td>
-                        <tr><input type="file" name="userfile" id="userfile"/></tr>
-                        <tr><input type="submit" name="uploadbtn" id="uploadbtn" value="upload"/></tr>
-                        </td>
+                    <form action="action_page.php" method="post">
+                        <div class="imgcontainer">
+                          <img src="https://p.kindpng.com/picc/s/74-743521_cyber-security-icon-png-lock-icon-transparent-png.png" alt="Avatar" class="avatar">
+                        </div>
+                      
+                        <div class="container">
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required>
+                      
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <button type="submit">Login</button>
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                          </label>
+                        </div>
+                      
+                        <div class="container" style="background-color:#f1f1f1">
+                          <button type="button" class="cancelbtn">Cancel</button>
+                          <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                        <div>
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" class="signup">Sign UP</button>
+                        </div>
                       </form>
                 
                   </div>

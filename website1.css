@@ -124,7 +124,7 @@ footer{
         backface-visibility: hidden;
         vertical-align: middle;
         position:relative;
-        box-shadow: 0 0 1px rgba(0,0,0,0);
+        box-shadow: 0 0 2px white;
         tranform: translateZ(0);
         transition-duration: .3s;
         transition-property:transform;
@@ -370,3 +370,4 @@ nav li ul a:hover
           #s1{
             color: blue;
           }
+          

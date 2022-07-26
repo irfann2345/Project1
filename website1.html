@@ -1,9 +1,290 @@
 <html>
     <head>
-        <title>Website</title>
+        <title>All Nepal TripAdvisor</title>
+        <script>
+          $(function(){
+  var str = '#len'; //increment by 1 up to 1-nelemnts
+  $(document).ready(function(){
+    var i, stop;
+    i = 1;
+    stop = 4; //num elements
+    setInterval(function(){
+      if (i > stop){
+        return;
+      }
+      $('#len'+(i++)).toggleClass('bounce');
+    }, 500)
+  });
+});
+        </script>
+        <link rel="stylesheet" type="text/css" href="website1.css">
+        
     </head>
-    <body>
+    <body >
+      <div id="bgslider">
+        <figure>
+            <img src="I2.jpg" alt="Slider">
+            <img src="m1.jpg" alt="Slider">
+            <img src="I4.jpg" alt="Slider">
+            <img src="I6.jpg" alt="Slider">
+            <img src="I7.jfif" alt="Slider">
+        </figure>
+    </div>
+     
+    <h1 id="h1">All Nepal TripAdvisor</h1>
+    <div id="navbar">
+      <div id="logo">
+          <div id="logo-left">
+              <img src="Nepal1.jfif" class="image" style="height: 100px; ">
+          </div>
+          <div id="searchbar">
+          <form action="/action_page.php">
+            <label for="gsearch">Search:</label>
+            <input type="search" id="gsearch" name="gsearch">
+            <input type="submit" id="s1">
+          </form>
+          </div>
+      </div>
+  </div>
+  <div id="div1">Here you can know all about provinces of Nepal. As well as all the informations about different Zones of Nepal.</div>
+  <div class="container-fluid">
+    <div id="fullscreen">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a id="len1" class="hoverable" href="#">Home</a></li>
+          <li><a id="len2" class="hoverable" href="#">Province</a>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Province_No._1">1</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Madhesh_Province">2</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bagmati_Province">3</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Gandaki_Province">4</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Lumbini_Province">5</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Karnali_Province">6</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Sudurpashchim_Province">7</a></li>
+        </ul>
+          </li>
+          <li><a id="len3" class="hoverable" href="#">Zone</a>
+            <ul>
+              <li><a href="https://en.wikipedia.org/wiki/Kathmandu">Kathmandu</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Lalitpur,_Nepal">Lalitpur</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bhaktapur">Bhaktapur</a></li>
+              <li><a href="https://simple.wikipedia.org/wiki/Mechi_Zone#:~:text=From%20Simple%20English%20Wikipedia%2C%20the%20free%20encyclopedia%20Mechi,zone%20of%20Nepal%2C%20with%20its%20headquarters%20at%20Ilam.">Mechi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Panchthar_District">Panchthar</a></li>
+              <li><a href="https://simple.wikipedia.org/wiki/Ilam,_Nepal#:~:text=From%20Simple%20English%20Wikipedia%2C%20the%20free%20encyclopedia%20Ilam,hilly%20region%20of%20Mechi%20zone%20in%20eastern%20Nepal.">Ilam</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Jhapa_District">Jhapa</a></li>
+              <li><a href="https://simple.wikipedia.org/wiki/Kosi_Zone#:~:text=From%20Simple%20English%20Wikipedia%2C%20the%20free%20encyclopedia%20Koshi,is%20Biratnagar.%20It%20is%20also%20its%20largest%20city.">Koshi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Sunsari_District">Sunsari</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dhankuta">Dhankutta</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Sankhuwasabha_District">Sankhuwasabha</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bhojpur">Bhojpur</a></li>
+              <li><a href="https://de.wikipedia.org/wiki/Terhathum">Terhathum</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Sagarmatha_Zone">Sagarmatha</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Khotang_District">Khotang</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Solukhumbu">Solukhumbu</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Udaypur">Udaypur</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Saptari">Saptari</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Siraha">Siraha</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Janakpur">Janakpur</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Mahottari">Mahottari</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Sarlahi">Sarlahi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Sindhuli">Sindhuli</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Ramechaap">Ramechaap</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dolkha">Dolkha</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bagmati">Bagmati</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kavreplanchauk">Kavreplanchauk</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Nuwakot">Nuwakot</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rasuwa">Rasuwa</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dhading">Dhading</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Narayani">Narayani</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rautahat">Rautahat</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bara">Bara</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Parsa">Parsa</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Chitwan">Chitwan</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Gandaki">Gandaki</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Lamjung">Lamjung</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Tanahun">Tanahun</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Syangja">Syangja</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kaski">Kaski</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Manag">Manag</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dhawalagiri">Dhawalagiri</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Parwat">Parwat</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Myagdi">Myagdi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Baglung">Baglung</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Lumbini">Lumbini</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Palpa">Palpa</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rupandehi">Rupandehi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Argakhanchi">Argakhanchi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kapilvastu">Kapilvastu</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rapti">Rapti</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rolpa">Rolpa</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rukum_Purba">Rukum Purba</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rukum_Paschim">Rukum Paschim</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Salyan">Salyan</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dang">Dang</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bheri">Bheri</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Surkhet">Surkhet</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dailekh">Dailekh</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Banke">Banke</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Jajarkot">Jajarkot</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Karnali">Karnali</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Humla">Humla</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kalikot">Kalikot</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Mugu">Mugu</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Jumla">Jumla</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Seti">Seti</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bajhang">Bajhang</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Achham">Achham</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Doti">Doti</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Kailali">Kailali</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Mahakali">Mahakali</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Dadeldhura">Dadeldhura</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Baitadi">Baitadi</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Darchula">Darchula</a></li>
+          </ul>
+        </li>
+          <li><a id="len4" class="hoverable" href="aboutus.html">About us</a></li>
+          <li><a id="len4" class="hoverable" href="contact.html">Contact us</a></li>
+          <li><a id="len4" class="hoverable" href="fileuploader.html">File Uploader</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+  </div>
+  <div>
+    <p style="color:rgb(255, 255, 255) ;font-size: 20px;" >
+      Nepal with rich ancient cultures set against the most dramatic scenery in the world is a land of discovery and unique experience. For broad minded individuals who value an experience that is authentic and mesmerizing, Nepal is the ideal destination. Come and revel in the untouched and the undiscovered and uncover yourself.
 
+It is unsurpassed that the sheer diversity Nepal boasts, from steamy jungle and Terai to the icy peaks of the world’s highest mountains means that the range of activities on offer. Trekking, mountaineering, rafting in spectacular scenery are just three things Nepal is famous for. Activities as diverse as Elephant Polo and a micro-light flight through the Himalayas show that in Nepal, the only boundary is your imagination. With 15 National & Wildlife Parks (two are UNESCO Heritage sites) Nepal is one of the last places on earth you can spot the Asiatic rhinoceros and the Royal Bengal Tiger.
 
+For many, Nepal’s greatest attraction is its people. The traditions and famous hospitality of its many different groups are indeed a major part of what makes Nepal so special. From remote mountain villages to medieval hill-towns and the ancient cities of the Kathmandu Valley, the people of Nepal are always welcoming. Come and experience the strong and unique flavors of Nepalese cuisine, prepared with love and a depth of flavor or join in and celebrate at one of the many festivals year round. In fact, with more festivals than days of the year, there is nowhere else in the world that can offer as many festivities as Nepal.
+
+Tourism is one of the mainstay of Nepalese economy. It is also a major source of foreign exchange and revenue. Possessing 8 of the 10 highest mountains in the world, Nepal is a hotspot destination for mountaineers, rock climbers and people seeking adventures. The Hindu, Buddhist and other cultural heritage sites of Nepal, and around the year fair weather are also strong attractions.
+
+Nepal is the country of the Mount Everest, the highest mountain peak in the world, and the Birthplace of Gautama Buddha- Lumbini. Mountaineering and other types of adventure tourism and ecotourism are important attractions for visitors. There are other important religious pilgrimage sites throughout the country for the followers of various sects and religions.
+
+According to statistics from Nepal Tourism Board (NTB), a total of 598,204 foreign tourists entered the country via aerial route in 2012. The government of Nepal declared 2011 to be Nepal Tourism Year, and hoped to attract one million foreign tourists to the country during that year. The tourist industry is seen as a way to alleviate poverty and achieve greater social equity in the country.
+<br><br>
+<p id="p1">
+ <u style="color:rgb(60, 236, 12)"><b>Wilderness tourism</b></u>
+<br>
+Nepal’s major tourist activities include wilderness and adventure activities such as mountain biking, bungee jumping, rock climbing and mountain climbing, trekking, hiking, bird watching, mountain flights, ultralight aircraft flights, paragliding and hot air ballooning over the mountains of the Himalaya, hiking and mountain biking, exploring the waterways by raft, kayak or canoe and jungle safaris especially in the Terai region.
+</p><br>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b>Religious sites</b></u>
+
+<br>
+Nepal is a multi-religious society. The major religion in Nepal is Hinduism, and the Pashupatinath Temple, which is the world’s one of the main Hindu religious sites is located in Kathmandu, attracts many pilgrims and tourists. Other Hindu pilgrimage sites include the temple complex in Swargadwari located in the Pyuthan district, Lake Gosainkunda near Dhunche, the temples at Devghat, Manakamana temple in the Gorkha District, and Pathibhara near Phungling, Mahamrityunjaya Shivasan Nepal in Palpa District where biggest metallic idol of Lord Shiva is located.
+<br>
+Buddhism is another main religion. The World Heritage site Lumbini, which is the birthplace of Gautama Buddha, is an important pilgrimage site. Another prominent Buddhist site is Swayambhunath, the Monkey Temple, in Kathmandu. Dang valley is also a sacred place for Hindus as well as other religions. Kalika and Malika Devi in Chhillikot hill, Ambekeshawori temple, Krishna temple, Dharapani temple etc. are sacred place in Dang district. Chillikot hill is also a good place for sightseeing and also an ancient palace of a king. Muktinath is a sacred place for Hindus as well as Buddhists. The site is located in Muktinath Valley, Mustang district.
+</p>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b> Culture and Heritage Sites</b></u>
+ 
+<br>
+Kathmandu the capital city of Nepal is the city of temple and very rich in cultural heritage. Within 7 km radius there are 7 world heritage sites (Pashupatinath Temple, Baudhanath Stupa, Swayambhunath Stupa, Changunarayan Temple, Kathmandu Durbar Square, Patan Durbar Square and Bhaktapur Durbar Square) which cannot be found anywhere. Museums in Kathmandu have rich collections of archaeological, historical and artistic importance and galleries display art work of the past and present. Full of art, architecture and culture, the Kathmandu Valley is the prime destination for the tourists. As Nepal is a land of festivities and celebrations, visitors can experience how a culturally diverse and rich society of Nepal grooms in harmony.
+</p><br>
+<p id="p1">
+  <u style="color:rgb(255, 10, 10)"><b> Major Tourism Activities in Nepal</b></u>
+</p><br>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b> Mountain Climbing</b></u>
+<br>
+The 800 km stretch of the Nepal Himalayan is the greatest in the world with eight peaks that rise above 8,000m including the highest in the world, Mt. Everest. Ever since the country opened its peaks to climbers in 1994, the Nepal Himalayan has become a great theatre of mountaineering activity and the drama of success and failure have provided impetus to thousands of men and women to meet the ultimate challenge. The Nepal Himalayan has been an attraction to many people, be they saints, philosophers, researchers or adventures.
+</p><br>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b> Trekking</b></u>
+<br>
+The best way to experience Nepal’s unbeatable combination of natural beauty and culture riches is to walk through them. One can walk along the beaten trails or virgin tracks. Either way you are in for an experience for a lifetime. Along with forests of rhododendron, isolated hamlets, and small mountain villages, birds, animals, temple, monasteries and breathtaking landscapes, you will also encounter friendly people of different cultures offering a fascinating glimpse of traditional rural life.
+</p><br>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b> Bird Watching</b></u>
+<br>
+Nepal is a paradise for bird lovers with over 646 species (almost 8% of the world total) of birds, and among them almost 500 hundred species are found in Kathmandu Valley alone. The most popular bird watching spots in Kathmandu are Phulchoki, Godavari, Nagarjun, Bagmatiriver, Taudaha and so on. Get your binoculars and look forward to a rewarding experience.
+</p>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b> Rafting/Kayaking/Canyoning</b></u>
+<br>
+Rafting  is one of the best ways to explore the typical cross section of natural as well as ethno-cultural heritage of the country. There are numerous rivers in Nepal which offer excellent rafting or canoeing experience. You can glide on calm jade waters with munificent scenery all about or rush through roaring white rapids, in the care of expert river-men employed by government authorized agencies. One can opt for day of river running or more. So far, the government has opened sections of 10 rivers for commercial rafting. The Trisuliriver  is one of the most popular of Nepal’s raftable rivers. The Kali Gandaki winds through remote canyons and deep gorges for five days of intense rapids. The BhoteKoshi is 26km of continuous white water and the raging Marshyanghi is four days of uninterrupted white water. The Karnaliriver provides some of the most challenging rapids in the world. The Sun Koshi , 27km, requiring 8-10 days to complete, is a big and challenging river. Adventurers are provided with world-class services by rafting agents. Agencies here provide life jackets, camping and the standard rafting paraphernalia needed by world-class rafting. An extremely popular sport in Europe, cannoning is now available in Nepal. Cannoning gives you the freedom to explore some of the most ruggedly beautiful, yet forbidden places in the world.
+</p><br>
+<p id="p1">
+  <u style="color:rgb(60, 236, 12)"><b>Hot Air Ballooning</b></u>
+<br>
+Hot air ballooning is very popular with tourists for it affords the most spectacular bird’s-eye view of the Kathmandu valley and the Himalayan ranges towering in the background. On a clear day it’s a superb way to view the Himalayan (from over 6000m up), and the view of the valley is equally breathtaking.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Bungee Jumping</b></u>
+<br>
+The ultimate thrill of a bungee jump can now be experienced in Nepal at one of the best sites that this sport can boast of anywhere in the world. Nepal’s first bungee jumping site is situated 160m. Over the BhoteKoshiriver, inviting you to experience the ultimate adrenaline rush in the surroundings of this amazing place. The jump, at 160m., is staffed and operated by some of the most experienced jumpmasters in the business.
+</p><p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Paragliding</b></u>
+<br>
+Paragliding in Nepal can be a truly wonderful and fulfilling experience for the adventure seeking. A trip will take you over some of the best scenery on earth, as you share airspace with Himalayan griffins vultures, eagles, kites and float over villages, monasteries, temples, lakes and jungle, with a fantastic view of the majestic Himalayas.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Ultralight Aircrafts</b></u>
+<br>
+Ultralight aircraft take off from Pokhara and offer spectacular views of the lakes, mountains and villages. This is an ideal way to see life from a new perspective. The choice of Pokhara Valley for ultra-light aircraft is appropriate chiefly because of the proximity of the mountains, and the scenic lakes. For those who wished they could fly birds when growing up, this flight is a must. It might be lonely at the top, but this flight is a must. It might be lonely at the top, but the spectacular view from up high certainly makes it all worth it. Flights are from the Pokhara airport beginning September through June. The flights take place from sunrise to 11 a.m. and from 3 p.m. to sunset every day during these months.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Mountain Biking</b></u>
+<br>
+The best way to explore the Kathmandu Valley is on a mountain bike. Nepal’s diverse terrain is a mountain biker’s dream adventure comes true. Mountain biking offers an environmentally sound way of exploring this magnificent country, its landscape and living heritage. There are plenty of dirty roads and trails in Nepal to meet every mountain biker’s wildest fantasy. Mountain biking is specially recommended if you wish to explore urban centers of Nepal such as Pokhara and Kathmandu as well as the countryside. Adventurous souls may plan extended trips to such exotic locals as Namche Bazaar, and western Nepal. You could even do the entire length of Nepal across the plains. Mountain bikes are available for rent by the day or longer in many of the bicycle rental outlets in Nepal and around the city.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Jungle Safari</b></u>
+<br>
+National Parks located specially in the Terai region in Nepal attract visitors from all over the world. A visit to these parks involves game- stalking by a variety of means-foot, dugout canoe, jeep, and elephant back. One is bound to sight a one – horned rhino or two at every elephant safari. Besides the rhinos, wild boars, samburs, spotted deer, sloth bear, four-horned antelope are also usually seen. A Royal Bengal tiger may surprise you by his majestic appearance.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Mountain Flight</b></u>
+<br>
+Only awe-stricken silence can come close to matching the experience of going on a mountain flight to encounter the tallest mountains on earth. Mountain flights offer the closest possible aerial views of Mt. Everest, Kanchenjunga and the Tibetan Plateau. Mountain flights appeal to all category of travelers and have become a popular tourist attraction of Nepal. For those who are restricted by time or other considerations from going for a trek, these flights offer a panoramic view of the Himalayan in just one hour.
+</p>
+<p id="p1"><br>
+  <u style="color:rgb(60, 236, 12)"><b> Rock Climbing</b></u>
+<br>
+For all those cliffhangers out there, Kathmandu offers a roster of stone walls that make for an experience of a lifetime. Now of late, Rock climbing has become a popular sport in Kathmandu, which offers some really terrific places for rock climbing. Nagarjun, Balaju, Shivapuri and Budhanilkantha are some of the places where you can try this sport.
+    </p>
+    
+  </div><br>
+  <div>
+    <h1 id="div1"><b>Places to visit</b></h1>
+    <div class="outer-grid">
+      <div class="inner-grid">
+        <P id="p1">1)Kathmandu</P>
+      <a href="https://en.wikipedia.org/wiki/Kathmandu"><img id="img"src="https://static.toiimg.com/photo/54311463/.jpg"/></a><br>
+      <br><P id="p1">2)Pokhara</P>
+      <a href="https://en.wikipedia.org/wiki/Pokhara"><img id="img"src="https://www.honeymoonbug.com/blog/wp-content/uploads/2020/06/pokhara-valley-nepal.jpg"/></a><br>
+      <br><P id="p1">3)Chitwan</P>
+      <a href="https://en.wikipedia.org/wiki/Chitwan_National_Park"><img id="img"src="https://th.bing.com/th/id/R.1c1b9e9a04923162e3267f4de5f617ba?rik=%2beKVceB9yOddiw&riu=http%3a%2f%2fmedia.natgeotraveller.in%2fwp-content%2fuploads%2f2016%2f05%2fIndian-Rhino.jpg&ehk=DQu0PlV9vFN830vu9bCAF50pl%2blAk6EviltdNEo7a3U%3d&risl=&pid=ImgRaw&r=0"/></a><br>
+      </div>
+      <div class="inner-grid">
+        <br><P id="p1">4)Lumbini</P>
+      <a href="https://en.wikipedia.org/wiki/Lumbini#:~:text=Lumbin%C4%AB%20%28Nepali%3A%20%E0%A4%B2%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%BF%E0%A4%A8%E0%A5%80%20pronounced%20%5B%CB%88lumbini%5D%20%28listen%29%2C%20%22the%20lovely%22%29,birth%20to%20Siddhartha%20Gautama%20at%20around%20563%20BCE."><img id="img"src="https://www.nepaltouroperators.com/public/uploads/tour/Lumbini%20Mayadevi%20temple.jpg"/></a><br>
+      <br><P id="p1">5)Mustang</P>
+      <a href="https://en.wikipedia.org/wiki/Mustang_District"><img id="img"src="https://th.bing.com/th/id/R.6666cb9c6da4ec422aa3f61277cb176f?rik=nuYibsBQY9chew&pid=ImgRaw&r=0"/></a><br>
+      <br><P id="p1">6)Lukla</P>
+      <a href="https://en.wikipedia.org/wiki/Lukla"><img id="img" src="https://everest.reefcharter.com/wp-content/uploads/2014/11/Lukla.jpg"/></a><br>
+      <br><P id="p1">7)Manang</P>
+      <a href="https://en.wikipedia.org/wiki/Manang"><img id="img" src="https://i.pinimg.com/originals/1b/fe/b8/1bfeb89ed06c6707ec1fbb0cda82f0bc.jpg"/></a><br>
+      <br><P id="p1">8)Ilam</P>
+      <a href="https://en.wikipedia.org/wiki/Ilam_District"><img id="img" src="https://2.bp.blogspot.com/_L4H65JJIXf8/TTleV5m2UqI/AAAAAAAAABg/K9gC3awU8hs/s1600/Kanyam+%2528ilam%2529.jpg"/></a><br>
+      </div>
+      </div>
+
+  </div>
+  <footer>
+    <div id="footer-links">
+      <a href="">Contact Us</a>
+      <a href="">News letter</a>
+    </div>
+    <div id="footer-info">
+      Designed By Irfan
+      &copy;2022
+    </div>
+        </footer>
+      </div>
     </body>
 </html>

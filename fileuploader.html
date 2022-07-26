@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>FileUploader</title>
+        <style>
+            body{
+                background-color: chocolate;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+<div id="content1">
+    <h1>You can upload your pictures here </h1>
+    <div id="content-box">
+      <form action="serverside.php" method="POST"
+      enctype="multipart/form-data">
+      <td>
+      <tr><input type="file" name="userfile" id="userfile"/></tr>
+      <tr><input type="submit" name="uploadbtn" id="uploadbtn" value="upload"/></tr>
+      </td>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,15 +1,75 @@
-*{
+* {
+    box-sizing: content-box;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+  }
+  .mySlides {
+    display: none
+  }
+  img {
+    vertical-align: middle;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 10s;
+    animation-name: fade;
+    animation-duration: 10s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px
+    }
+  }
+  *{
     margin:0px;
 }
 body{
     width: 100%;
-    background-image: url(I3.jpg);
+    background-image: url(I2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: fixed;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(I3.jpg);
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(I2.jpg);
 }
 
 #navbar {
@@ -49,8 +109,7 @@ h3{
 }
 #searchbar{
    background-blend-mode: color-burn;
-    float:right;
-    align-items: center;
+    float: right;
     height: 100px;
     width: 600px;
 }
@@ -61,8 +120,8 @@ h3{
 }
 #searchbar label{
     margin-left: 30px;
-    color: whitesmoke;
-    font-size: 40px;
+    color: blue;
+    font-size: 60px;
 }
 #h1{
 text-align: center;
@@ -210,7 +269,7 @@ footer{
       body {
         background-color: rgba(0,0,0,1);
         font-weight:600;
-        
+        text-align: !important;
         color: white;
 
       }
@@ -236,74 +295,7 @@ footer{
         font-style: oblique;
         color-interpolation-filters: linearRGB;
       }
-      nav ul
-{
-    width: 100%;
-    margin: 0;
-    padding: 0%;
-    list-style: none;
-}
-
-nav li
-{
-    margin: 0;
-    padding: 0;
-    float: left;
-    position: relative;
-}
-
-nav a
-{
-    padding: 10px 25px;
-    display: block;
-    background: transparent;
-    font-family: Tahoma;
-    text-transform: uppercase;
-    font-size: 25px;
-    color: rgba(12, 179, 239, 0.896);
-    text-align: center;
-    text-decoration: none;
-
-}
-
-nav li:hover ul
-{
-    background-color:whitesmoke ;
-}
-
-nav li ul
-{
-    width: auto;
-    float: left;
-    visibility: hidden;
-    position: absolute;
-    left: 0;
-    top: 35px;
-    z-index: 1;
-    background-color: transparent;
-    opacity: 0;
-}
-
-nav li:hover ul
-{
-    visibility: visible;
-    top: 42px;
-    opacity: 1;
-}
-
-nav li ul li
-{
-    width: 100%;
-}
-
-
-nav li ul a:hover
-{
-    background-color: RGB(255, 197, 158);
-}
-     #bgslider { 
-      height: 400px;
-      width: auto;
+      bgslider { 
         overflow: hidden; 
     }
     #bgslider figure { 
@@ -330,43 +322,4 @@ nav li ul a:hover
         75% { left: -300%; }
         95% { left: -300%; }
         100% { left: -400%; }
-        }
-        #div1{
-          text-shadow: 2px 2px 5px red;
-          text-align: center;
-          font-size: 30px;
-        }
-        #bgslider { 
-          overflow: hidden; 
-        }
-        #bgslider figure { 
-          position: relative;
-          width: 500%;
-          margin: 0;
-          left: 0;
-          text-align: left;
-          font-size: 0;
-          animation: 30s slidy infinite; 
-        }
-        #bgslider figure img { 
-          width: 20%; 
-          float: left; 
-          height:100vh;
-        }@keyframes slidy {
-          0% { left: 0%; }
-          20% { left: 0%; }
-          25% { left: -100%; }
-          45% { left: -100%; }
-          50% { left: -200%; }
-          70% { left: -200%; }
-          75% { left: -300%; }
-          95% { left: -300%; }
-          100% { left: -400%; }
-          }
-          #img{
-            height: 500px;
-            width: 700px;
-          }
-          #s1{
-            color: blue;
-          }
+        }#
